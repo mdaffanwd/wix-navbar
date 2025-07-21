@@ -60,7 +60,7 @@ nav {
     width: auto;
     height: max-content;
     text-align: left;
-    background-color: none;
+    background-color: white;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transform: translateY(-100%);

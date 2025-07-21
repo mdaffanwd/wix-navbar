@@ -10,7 +10,7 @@ document.querySelectorAll('[data-dropdown]').forEach(dropdown => {
   dropdown.addEventListener('mouseleave', () => {
     timeout = setTimeout(() => {
       dropdown.classList.remove('active');
-    }, 300);
+    }, 400);
   });
 
   // Close dropdown on link click

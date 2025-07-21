@@ -53,11 +53,15 @@ nav {
 }
 
 .dropdown-content {
-    position: absolute;
-    top: auto;
+    position: fixed;
+    top: 5rem;
     left: 0;
+    width: 100vw;
+    /* position: absolute;
+    top: auto;
+    left: -50vw; */
     /* right: 0; */
-    width: auto;
+    width: 100vw;
     height: max-content;
     text-align: left;
     background-color: white;
@@ -67,7 +71,7 @@ nav {
     pointer-events: none;
     transition: transform 0.4s ease-in-out;
     z-index: 99;
-    padding-block: 3rem;
+    padding-block: 2rem;
     padding-inline: 1rem;
     display: flex;
     flex-direction: column;

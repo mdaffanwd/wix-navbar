@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: #fff;
+    background: transparent;
     position: relative;
     max-width: 1480px;
     margin-inline: auto;
@@ -56,8 +56,8 @@ body {
     width: auto;
     height: 70vh;
     text-align: left;
-    background-color: transparent;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background-color: none;
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); */
     opacity: 0;
     transform: translateY(-100%);
     pointer-events: none;
